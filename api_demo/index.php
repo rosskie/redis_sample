@@ -11,10 +11,11 @@ include_once "{$_SERVER['DOCUMENT_ROOT']}/lib/autoloader.php";
 include_once "./class/api_view.php";
 
 $obj = new ApiView();
+$table = $obj->output_table();
 
 //画面表示
 $template = new SimpleTemplate();
 $template->template_dir('../template');
 $template->assign('title', "APIキャッシュ課題ページ");
-$template->assign('center', "ここに生成したデータをいれてください");
+$template->assign('center', $table);
 $template->display('main.tpl');

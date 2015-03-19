@@ -11,3 +11,6 @@ include_once "{$_SERVER['DOCUMENT_ROOT']}/lib/autoloader.php";
 include_once "./class/api_bat.php";
 
 $obj = new ApiBat();
+$obj->fetch_api_data();
+$obj->confirm_redis();
+

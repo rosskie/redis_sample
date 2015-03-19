@@ -1,0 +1,63 @@
+array(2) {
+  ["request"]=>
+  array(3) {
+    ["type"]=>
+    string(4) "json"
+    ["url"]=>
+    string(37) "http://animemap.net/time/table/kyoto/"
+    ["updated"]=>
+    string(19) "2015-03-19 12:31:37"
+  }
+  ["response"]=>
+  array(1) {
+    ["item"]=>
+    array(19) {
+      [0]=>
+      array(10) {
+        ["title"]=>
+        string(12) "戦国無双"
+        ["url"]=>
+        string(36) "http://animemap.net/time/title/2002/"
+        ["time"]=>
+        string(5) "01:15"
+        ["station"]=>
+        string(15) "テレビ大阪"
+        ["state"]=>
+        string(5) "onair"
+        ["next"]=>
+        string(5) "11話"
+        ["episode"]=>
+        string(1) "?"
+        ["cable"]=>
+        string(1) "1"
+        ["today"]=>
+        string(1) "0"
+        ["week"]=>
+        string(9) "月曜日"
+      }
+      [1]=>
+      array(10) {
+        ["title"]=>
+        string(19) "ドアマイガーD"
+        ["url"]=>
+        string(36) "http://animemap.net/time/title/1978/"
+        ["time"]=>
+        string(5) "19:55"
+        ["station"]=>
+        string(12) "京都放送"
+        ["state"]=>
+        string(5) "onair"
+        ["next"]=>
+        string(9) "最終回"
+        ["episode"]=>
+        string(1) "?"
+        ["cable"]=>
+        string(1) "0"
+        ["today"]=>
+        string(1) "0"
+        ["week"]=>
+        string(9) "月曜日"
+      }
+    }
+  }
+}

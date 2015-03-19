@@ -12,6 +12,11 @@ include_once "./class/api_view.php";
 
 $obj = new ApiView();
 
+/**
+* 見た目はこだわらなくてOKです。
+* 余裕があればフォームを作って表示データを可変にできるようにしてみてください。
+*/
+
 //画面表示
 $template = new SimpleTemplate();
 $template->template_dir('../template');
